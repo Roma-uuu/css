@@ -1,6 +1,17 @@
-body {
-		background-color: #a4edbe;
-	}
-h1 {color: red}
+* {
+	font-size: 20px;
+	background-color: #a4edbe
+}
 
-h3 {color: blue}
+#header {color: red}
+
+h3.style {color: yellow}
+
+p i {
+	color: #ca5597
+}
+
+p.example, b {
+		font-size: 30px;
+		font-weight: normal;
+}
