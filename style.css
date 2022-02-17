@@ -1,10 +1,10 @@
 * {
 	font-size: 20px;
-	background-color: #a4edbe
 }
 
 html {
-	background-image: url('https://wallbox.ru/resize/800x480/wallpapers/main/201134/2560h1600-tekstura-oboi-e710001.jpg');
+	background: url('https://wallbox.ru/resize/800x480/wallpapers/main/201134/2560h1600-tekstura-oboi-e710001.jpg') repeat-x #ddeea5 center top;
+}
 
 #header {color: red}
 
