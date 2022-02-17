@@ -3,6 +3,9 @@
 	background-color: #a4edbe
 }
 
+html {
+	background-image: url('https://wallbox.ru/resize/800x480/wallpapers/main/201134/2560h1600-tekstura-oboi-e710001.jpg');
+
 #header {color: red}
 
 h3.style {color: yellow}
@@ -15,3 +18,18 @@ p.example, b {
 		font-size: 30px;
 		font-weight: normal;
 }
+
+p#example:first-letter {
+	
+}
+
+.href {
+	color: #5f1a1a;
+	text-decoration: overline
+}
+
+.href:hover {
+	color: #1d5e19;
+	background-color: red;
+}
+
