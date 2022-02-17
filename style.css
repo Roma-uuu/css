@@ -38,3 +38,13 @@ p#example:first-letter {
 	font-weight: bold;
 	font-family: Comic Sans MS;
 }
+
+#testBlocks {
+	border: 20px dotted blue;
+	border-bottom: 3px dashed red;
+	height: 500px;
+	width: 700px;
+	margin: 15px 33px 66px 44px;
+	padding: 20px;
+	border-radius: 50px;
+}
