@@ -40,8 +40,6 @@ p#example:first-letter {
 }
 
 #testBlocks {
-	border: 20px dotted blue;
-	border-bottom: 3px dashed red;
 	height: 500px;
 	width: 700px;
 	margin: 15px 33px 66px 44px;
@@ -50,25 +48,25 @@ p#example:first-letter {
 }
 
 header {
-	width: calc(100%; - 20px);
+	width: calc(100% - 20px);
 	height: 50px;
 	background-color: #fff;
 	border-bottom: 2px solid silver;
 	padding: 10px;
 	font-size: 1.2em;
 	color: #333;
-	float: left;
+	float: top;
 	font-family: Comic Sans MS;
 }
 
 article, aside {
 	background-color: fafafa;
 	height: 400px;
-	float: left;
 	border-radius: 5px;
 	border: 1px solid silver;
 	box-sizing: border-box;
 	margin-top: 20px;
+	float: left;
 }
 
 article {
@@ -76,6 +74,7 @@ article {
 	margin-left: 5%;
 	margin-right: 5&;
 	background-color: #E0FFFF;
+	padding: 10px;
 }
 
 aside {
@@ -84,9 +83,8 @@ aside {
 }
 
 footer {
-	width: calc(100%; - 20px);
+	width: calc(100% - 20px);
 	height: 50px;
-	float: left;
 	margin-top: 20px;
 	background-color: #fff;
 	border-top: 2px solid silver;
@@ -94,4 +92,6 @@ footer {
 	font-size: 1.2em;
 	color: #333;
 	font-family: Comic Sans MS;
+	position: relative;
+	top: 450px;
 }
