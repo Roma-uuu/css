@@ -55,18 +55,19 @@ header {
 	padding: 10px;
 	font-size: 1.2em;
 	color: #333;
-	float: top;
 	font-family: Comic Sans MS;
+	float: left; 
 }
 
 article, aside {
 	background-color: fafafa;
-	height: 400px;
+	min-height: 400px;
 	border-radius: 5px;
 	border: 1px solid silver;
 	box-sizing: border-box;
 	margin-top: 20px;
-	float: left;
+	float: left; 
+	padding: 10px;
 }
 
 article {
@@ -74,9 +75,11 @@ article {
 	margin-left: 5%;
 	margin-right: 5&;
 	background-color: #E0FFFF;
-	padding: 10px;
 }
 
+aside ol {
+	list-style-position: inside;
+}
 aside {
 	width: 30%;
 	background-color: #E0FFFF;
@@ -92,6 +95,15 @@ footer {
 	font-size: 1.2em;
 	color: #333;
 	font-family: Comic Sans MS;
+	float: left; 
 	position: relative;
-	top: 450px;
+	z-index: -10;
+}
+
+.spanBlock {
+	display: block;
+	height: 100px;
+	width: 100px;
+	border: 20px solid red;
+	overflow: auto;
 }
